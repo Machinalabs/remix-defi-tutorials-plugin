@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App app snapshot 1`] = `
+<div>
+  <div>
+    <section>
+      <nav
+        class="plugins-list-header justify-content-between navbar navbar-expand-lg bg-light navbar-light align-items-center"
+      >
+        <span
+          class="navbar-brand plugins-list-title h6 mb-0 mr-2"
+        >
+          Tutorials
+        </span>
+      </nav>
+      <div
+        class="list-group list-group-flush plugins-list-group"
+      >
+        <button
+          class="list-group-item py-1 plugins-list-group-item"
+          style="outline: none;"
+          title="UMA"
+        >
+          <div
+            class="justify-content-between align-items-center mb-2"
+            style="display: flex; flex-direction: row;"
+          >
+            <h6
+              class="plugin-name"
+            >
+              UMA
+            </h6>
+          </div>
+          <p
+            class="text-body plugin-text"
+            style="text-align: left;"
+          >
+            Minting tokens locally
+          </p>
+        </button>
+      </div>
+    </section>
+  </div>
+</div>
+`;
