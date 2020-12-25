@@ -2,7 +2,7 @@
 
 A plugin to explore and learn about Defi
 
-[![CircleCI](https://circleci.com/gh/Machinalabs/remix-defi-explorer-plugin.svg?style=svg)](https://circleci.com/gh/Machinalabs/remix-defi-explorer-plugin)
+[![CircleCI](https://circleci.com/gh/Machinalabs/remix-defi-tutorials-plugin.svg?style=svg)](https://circleci.com/gh/Machinalabs/remix-defi-tutorials-plugin)
 
 ### Install
 
