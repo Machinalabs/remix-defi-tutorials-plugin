@@ -1,5 +1,5 @@
 defaults: &defaults
-  working_directory: ~/remix-uma-tutorials-explorer
+  working_directory: ~/remix-defi-tutorials-explorer
   docker:
     - image: circleci/node:12.16
 
