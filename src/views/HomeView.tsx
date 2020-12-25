@@ -4,11 +4,13 @@ import { Tutorial } from "../types"
 
 export const HomeView: React.FC = () => {
   const getTutorials: () => Tutorial[] = () => {
-    return [{
-      id: 1,
-      name: "UMA",
-      description: "Minting tokens locally"
-    }]
+    return [
+      {
+        id: 1,
+        name: "UMA",
+        description: "Minting tokens locally",
+      },
+    ]
   }
 
   const handleOnTutorialButtonClick = () => {
@@ -16,7 +18,8 @@ export const HomeView: React.FC = () => {
   }
 
   useEffect(() => {
-
+    // TODO
+    console.log("Activate x plugin")
   }, [])
   return (
     <section>
@@ -37,7 +40,10 @@ export const HomeView: React.FC = () => {
               >
                 <h6 className="plugin-name">{item.name}</h6>
               </div>
-              <p className="text-body plugin-text" style={{ textAlign: "left" }}>
+              <p
+                className="text-body plugin-text"
+                style={{ textAlign: "left" }}
+              >
                 {item.description}
               </p>
             </button>

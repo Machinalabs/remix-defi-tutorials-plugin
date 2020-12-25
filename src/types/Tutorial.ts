@@ -1,7 +1,7 @@
 type UMA = "UMA"
 
 export interface Tutorial {
-  id: number,
+  id: number
   name: UMA
   description: string
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import { RemixProvider } from 'remix-react'
+import { RemixProvider } from "remix-react"
 
 import { Routes } from "./routes"
 
