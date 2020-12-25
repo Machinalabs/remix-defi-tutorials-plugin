@@ -9649,10 +9649,10 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
-remix-react@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/remix-react/-/remix-react-0.0.1.tgz#f94131e8ef55177001f3497451967911d84ea45d"
-  integrity sha512-CXLQYQ3Z2Q08sXlbOWu76f79IuVJsgukO5Zea8o7KTcY9/4/zFyM6Xx4wk+hqN5jTlld9uj5QskMXNTnM7B1tA==
+remix-react@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/remix-react/-/remix-react-0.0.2.tgz#151ca92827f46426dca11f245b75b7e207890ff1"
+  integrity sha512-o9WZ19W9p4N/i7gtUD5J1Rd9BP5dYiLRwMyNgP+A9TEvGVtbfMQQWhikHjmIr97Lcchbo4UVVl/VI4T5H3eKVg==
   dependencies:
     "@remixproject/plugin" "^0.3.4"
     "@remixproject/plugin-api" "^0.3.4"

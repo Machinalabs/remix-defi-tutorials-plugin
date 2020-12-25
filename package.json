@@ -1,15 +1,16 @@
 {
-  "name": "remix-uma-tutorials-explorer",
+  "name": "remix-defi-tutorials-explorer",
   "version": "0.1.0",
-  "description": "A plugin to explore UMA tutorials",
+  "description": "A plugin to explore Defi tutorials",
   "author": "MachinaLabs",
   "dependencies": {
+    "@remixproject/plugin": "^0.3.4",
     "react": "^16.13.1",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "remix-react": "^0.0.1"
+    "remix-react": "^0.0.2"
   },
   "scripts": {
     "start": "PORT=8080 react-scripts start",
@@ -21,7 +22,7 @@
     "tslint:fix": "tslint --fix -p . -c tslint.json",
     "check-formatting": "prettier --write --list-different './src/**/*.tsx'",
     "prettier": "prettier --write \"src/**/*.{ts,,tsx,js,json}\"",
-    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-uma-tutorials-explorer-plugin.surge.sh"
+    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-defi-tutorials-explorer-plugin.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
