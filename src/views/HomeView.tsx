@@ -17,9 +17,9 @@ export const HomeView: React.FC = () => {
 
   const handleOnTutorialButtonClick = async () => {
     console.log("Clicked button") // focus
-    // await 
+    // await
     // await this.call("manager","activatePlugin",p) this is to activate it
-    await clientInstance.call("manager", "activatePlugin", "umaTutorials");
+    await clientInstance.call("manager", "activatePlugin", "umaTutorials")
   }
 
   useEffect(() => {
