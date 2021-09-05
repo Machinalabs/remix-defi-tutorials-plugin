@@ -1,8 +1,10 @@
 import React, { useEffect } from "react"
+import { useRemix } from "../hooks"
 
 import { Tutorial } from "../types"
 
 export const HomeView: React.FC = () => {
+  const { clientInstance } = useRemix()
   const getTutorials: () => Tutorial[] = () => {
     return [
       {
@@ -13,8 +15,11 @@ export const HomeView: React.FC = () => {
     ]
   }
 
-  const handleOnTutorialButtonClick = () => {
+  const handleOnTutorialButtonClick = async () => {
     console.log("Clicked button") // focus
+    // await 
+    // await this.call("manager","activatePlugin",p) this is to activate it
+    await clientInstance.call("manager", "activatePlugin", "umaTutorials");
   }
 
   useEffect(() => {

@@ -1385,6 +1385,13 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.4.4.tgz#11d5db19bd178936ec89cd84519c4de439574398"
   integrity sha512-1oO6+dN5kdIA3sKPZhRGJTfGVP4SWV6KqlMOwry4J3HfyD68sl/3KmG7DeYUzvN+RbhXDnv/D8vNNB8168tAMg==
 
+"@remixproject/plugin-api@0.3.19", "@remixproject/plugin-api@^0.3.19":
+  version "0.3.19"
+  resolved "https://registry.npmjs.org/@remixproject/plugin-api/-/plugin-api-0.3.19.tgz#4c6ecb6f7bdfb1fb14815aed1dd3333d87e249e9"
+  integrity sha512-MDCiGYA++5ydncSJUSNe5Fg0qh2fADbMdlCDP8BGsvUfhPEDBRIm8Iw6gYYGu9d5S4xDCs0EBMcExqvdweOGEw==
+  dependencies:
+    "@remixproject/plugin-utils" "0.3.19"
+
 "@remixproject/plugin-api@0.3.4", "@remixproject/plugin-api@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@remixproject/plugin-api/-/plugin-api-0.3.4.tgz#5451bb3c8398b4c0dea48011e7f5c07da9775a29"
@@ -1401,12 +1408,38 @@
     "@remixproject/plugin-api" "0.3.4"
     "@remixproject/plugin-utils" "0.3.4"
 
+"@remixproject/plugin-utils@0.3.19", "@remixproject/plugin-utils@^0.3.19":
+  version "0.3.19"
+  resolved "https://registry.npmjs.org/@remixproject/plugin-utils/-/plugin-utils-0.3.19.tgz#639a2a9860ef7ae43f8d6378a82e1b469086f4b7"
+  integrity sha512-++L83MmSeV4Hri4uldOB0iNqwOAN/3eAnYorpiSCpKJbeQzT08KyorQ6B3FAiG/EM0pF/o+sPZbNtSJuHCUfIw==
+  dependencies:
+    tslib "2.0.1"
+
 "@remixproject/plugin-utils@0.3.4", "@remixproject/plugin-utils@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@remixproject/plugin-utils/-/plugin-utils-0.3.4.tgz#114dfa8b9709362871d4d23ad57db8cb62d11b26"
   integrity sha512-Xs/LtlJUMUkcahFpggWp31McR70KQ1bxFf0TVkJSRBBsOJ6hkJwJD+2hn5Epzc4ugUUT/gvmQVCiaXm8dMl+rQ==
   dependencies:
     tslib "2.0.1"
+
+"@remixproject/plugin-webview@^0.3.19":
+  version "0.3.19"
+  resolved "https://registry.npmjs.org/@remixproject/plugin-webview/-/plugin-webview-0.3.19.tgz#01ef23b2f3d6f796c130e7c5ec1c96d34e31d6f1"
+  integrity sha512-TQiw0Zzm5ZDNmRR7sT9PzF6QmnhBlnTKmJ4X9DpV8ir1en8iG5Uopc5h8RnHc/YFiCVZyQyrjWi2bpSVmAFRuA==
+  dependencies:
+    "@remixproject/plugin" "0.3.19"
+    "@remixproject/plugin-api" "0.3.19"
+    "@remixproject/plugin-utils" "0.3.19"
+    axios "^0.21.1"
+
+"@remixproject/plugin@0.3.19", "@remixproject/plugin@^0.3.19":
+  version "0.3.19"
+  resolved "https://registry.npmjs.org/@remixproject/plugin/-/plugin-0.3.19.tgz#a3be12c15e6b1ea812f1e31f2a7b20f36d7b3dfe"
+  integrity sha512-jEG0ge0ku1TfFU/46ckvzB0Q7WyeUEQhvatv1oMrVTHUj2o8B0u500V92AcI0YNcxXjn5UNNrHGQBgLcNvYG6Q==
+  dependencies:
+    "@remixproject/plugin-api" "0.3.19"
+    "@remixproject/plugin-utils" "0.3.19"
+    events "3.2.0"
 
 "@remixproject/plugin@0.3.4", "@remixproject/plugin@^0.3.4":
   version "0.3.4"
@@ -2383,6 +2416,13 @@ aws4@^1.8.0:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.1.tgz#e1e82e4f3e999e2cfd61b161280d16a111f86428"
   integrity sha512-zg7Hz2k5lI8kb7U32998pRRFin7zJlkfezGJjUc2heaD4Pw2wObakCDVzkKztTm/Ln7eiVvYsjqak0Ed4LkMDA==
+
+axios@^0.21.1:
+  version "0.21.3"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.21.3.tgz#f85d9b747f9b66d59ca463605cedf1844872b82e"
+  integrity sha512-JtoZ3Ndke/+Iwt5n+BgSli/3idTvpt5OjKyoCmz4LX5+lPiY5l7C1colYezhlxThjNa/NhngCUWZSZFypIFuaA==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 axobject-query@^2.0.2:
   version "2.2.0"
@@ -5003,6 +5043,11 @@ follow-redirects@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
+
+follow-redirects@^1.14.0:
+  version "1.14.3"
+  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.3.tgz#6ada78118d8d24caee595595accdc0ac6abd022e"
+  integrity sha512-3MkHxknWMUtb23apkgz/83fDoe+y+qr0TdgacGIA7bew+QLBo3vdgEN2xEsuXNivpFy4CyDhBBZnNZOtalmenw==
 
 for-in@^0.1.3:
   version "0.1.8"
